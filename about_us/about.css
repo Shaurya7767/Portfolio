@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu&display=swap');
+
+.body{
+    background-color:aliceblue;
+}
+
+.navbar ul li {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 100;
+    font-size: medium;
+}
+
+.navbar ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navbar ul li {
+    margin: 30px;
+    list-style:none;
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 50px;
+    padding: 10px;
+    background-color:antiquewhite;
+
+}
+
+.navbar ul li:hover {
+    background-color: rgba(141, 134, 134, 0.877);
+}
+
+.navbar ul li a:hover {
+    color: rgb(255, 0, 0);
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.button :hover {
+    background-color: rgb(126, 182, 149);
+}
+
+.navbar {
+    background-color:aliceblue;
+}
+
+.inf {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}

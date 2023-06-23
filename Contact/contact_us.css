@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu&display=swap');
+
+.body {
+    background-color:antiquewhite;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.contact_bar{
+    display: flex;
+    
+}
+
+
+.container {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 100;
+    font-size: medium;
+
+}
+
+.contact_bar ul li {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 100;
+    font-size: medium;
+}
+
+.contact_bar ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contact_bar ul li {
+    margin: 30px;
+    list-style:none;
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 5px;
+    background-color:rgb(185, 160, 160);
+
+}
+
+.contact_bar ul li:hover {
+    background-color: rgba(141, 134, 134, 0.877);
+}
+
+.contact_bar ul li a:hover {
+    color: rgb(255, 0, 0);
+}
+
+.contact_bar ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.button :hover {
+    background-color:aqua;
+
+}
+
+.contact_bar {
+    background-color:aliceblue;
+}
+
+.container h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+}
+
+.contact_bar ul li h1 {
+    display: flex;
+    align-items: end;
+    justify-content: end;
+}
+
+main ul {
+    width: 2px;
+    margin: 40px; 
+    font-size: 30px;
+    border-radius: 20px;
+    padding: 10px;
+    margin-left: 90px;
+    background-color:aliceblue ;
+         
+
+}
+
+.right1{
+    margin: 10px;
+  list-style: none;
+  font-size: 20px;
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 10px;
+}
